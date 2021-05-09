@@ -1,0 +1,40 @@
+entity Collaborator {
+  registerNumber String
+  familySituation FamilySituation
+  phone String
+  dateOfBirth LocalDate
+  startDate LocalDate
+  avatar ImageBlob
+  lineManager String
+  availabilityDate LocalDate
+}
+
+entity Skills {
+  label String
+  code String
+}
+
+entity Category {
+  label String
+  description TextBlob
+  code String
+}
+
+entity Level {
+  label String
+  code String
+  description TextBlob
+}
+
+enum FamilySituation{
+  MARRIED, CELIBATE, WINDOWER, DIVORCED
+}
+
+relationship OneToOne {
+  Collaborator{account} to User
+}
+
+relationship ManyToMany {
+  Collaborator{skills} to Skills{collaborators},
+  Skills{category} to Category{skills}
+}

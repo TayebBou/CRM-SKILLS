@@ -1,0 +1,11 @@
+id;label;code;category_id
+1;Php;PHP;3
+2;Angular;NG;2
+3;Symfony;SF;1
+4;JavaScript;JS;2
+5;Laravel;LRVL;1
+6;Deltagen;DG;4
+7;Spring;SP;3
+8;React;REACT;2
+9;Java;JV;3
+10;Jakarta Enterprise Edition;JEE;3

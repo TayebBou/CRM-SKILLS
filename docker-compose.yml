@@ -1,0 +1,34 @@
+version: "3"
+services:
+  crm-skills:
+    container_name: crm-skills
+    build: .
+    ports:
+      - "8080:8080"
+      - "9000:9000"
+      - "3001:3001"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=crm_skills
+      - POSTGRES_HOST=localhost
+    volumes:
+      - ../CRM-SKILLS/:/home/app
+      - /home/app/node_modules
+      - /home/app/node
+  crm-postgres:
+    container_name: crm-skills-postgres
+    image: postgres:10
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_database:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=crm_skills
+      - POSTGRES_HOST=localhost
+volumes:
+  postgres_database:
+      external: false
+  

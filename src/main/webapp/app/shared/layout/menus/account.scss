@@ -1,0 +1,15 @@
+.p-button.p-component.p-splitbutton-defaultbutton {
+    margin-right: 55px;
+}
+.p-button.p-component.p-splitbutton-menubutton.p-button-icon-only{
+    padding-left: 129px;
+    padding-right: 20px;
+    right: 22px;
+    position: absolute;
+}
+.p-button.p-component.p-splitbutton-menubutton.p-button-icon-only:not(a):not(.p-disabled):hover{
+    background-color: #ffffff1c !important;
+}
+.p-button.p-component.p-splitbutton-menubutton.p-button-icon-only:not(a):not(.p-disabled):active{
+    background-color: #ffffff47 !important;
+}

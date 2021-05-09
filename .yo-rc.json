@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.tayeb_bousfiha.crm_skills",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "6.10.1",
+    "applicationType": "monolith",
+    "baseName": "CRM-SKILLS",
+    "packageName": "com.tayeb_bousfiha.crm_skills",
+    "packageFolder": "com/tayeb_bousfiha/crm_skills",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZTcxODAxOGFhZjY4YjQwZDYxNTQyYTA3OGUzOWI3MzQ2MjM1ZjNjY2JiYjNiZGI1MjlhMzFhZjJlOTJlMGUxOGUzODYyY2I2NmEwZTVlOTc5NmQ4ODkxZWMzNjAyNGI3M2RlZDllYWQzNWFjZjIwZmNmZTdjMDY5NDMwN2JkN2I=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1595418154305,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": ["fr", "en"],
+    "blueprints": []
+  }
+}

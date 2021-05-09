@@ -1,0 +1,11 @@
+{
+  "crm-skillsApp": {
+    "FamilySituation": {
+      "null": "",
+      "MARRIED": "MARRIED",
+      "CELIBATE": "CELIBATE",
+      "WINDOWER": "WINDOWER",
+      "DIVORCED": "DIVORCED"
+    }
+  }
+}

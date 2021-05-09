@@ -1,0 +1,8 @@
+id;label;description;code
+1;Full stack;Front End + Back end.;FULL
+2;Front end;Technologie coté client.;FRONT
+3;Back end;Technologie coté serveur.;BACK
+4;Imagerie;Techniques de production, traitement, indexation et compression d'images numériques.;IMG
+5;BI & BIG DATA;Collecter, nettoyer, enrichir et traiter un très grand volume de données ;BI
+6;UX/UI DESIGN;Conception des interfaces utilisateur qui répondent aux besoins de chaque utilisateur;UI
+7;Business analysis;Technologie d'analyse commerciale;BA

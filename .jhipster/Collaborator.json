@@ -1,0 +1,77 @@
+{
+  "name": "Collaborator",
+  "fields": [
+    {
+      "fieldName": "registerNumber",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "familySituation",
+      "fieldType": "FamilySituation",
+      "fieldValues": "MARRIED,CELIBATE,WINDOWER,DIVORCED",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "phone",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "dateOfBirth",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "startDate",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "avatar",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "image",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "lineManager",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "availabilityDate",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "relationshipValidateRules": "required",
+      "otherEntityName": "user",
+      "otherEntityRelationshipName": "collaborator",
+      "relationshipName": "account",
+      "otherEntityField": "firstName",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "many-to-many",
+      "relationshipValidateRules": "required",
+      "otherEntityName": "skills",
+      "otherEntityRelationshipName": "collaborators",
+      "relationshipName": "skills",
+      "otherEntityField": "label",
+      "ownerSide": true
+    }
+  ],
+  "changelogDate": "20200921135945",
+  "entityTableName": "collaborator",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

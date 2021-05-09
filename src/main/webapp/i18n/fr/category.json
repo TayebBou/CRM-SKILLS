@@ -1,0 +1,24 @@
+{
+  "crm-skillsApp": {
+    "category": {
+      "home": {
+        "title": "Catégories",
+        "createLabel": "Créer une nouvelle catégorie",
+        "createOrEditLabel": "Créer ou éditer une catégorie",
+        "notFound": "Aucune catégorie trouvé"
+      },
+      "created": "Une nouvelle catégorie a été créée avec l'identifiant {{ param }}",
+      "updated": "La catégorie avec l'identifiant {{ param }} a été mise à jour",
+      "deleted": "La catégorie avec l'identifiant {{ param }} a été supprimée",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer la catégorie {{ id }} ?"
+      },
+      "detail": {
+        "title": "Catégorie"
+      },
+      "label": "Label",
+      "description": "Description",
+      "code": "Code"
+    }
+  }
+}

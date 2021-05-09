@@ -1,0 +1,25 @@
+{
+  "crm-skillsApp": {
+    "skills": {
+      "home": {
+        "title": "Skills",
+        "createLabel": "Create a new skill",
+        "createOrEditLabel": "Create or edit a skill",
+        "notFound": "No Skill found"
+      },
+      "created": "A new skill is created with identifier {{ param }}",
+      "updated": "A skill is updated with identifier {{ param }}",
+      "deleted": "A skill is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete skill {{ id }}?"
+      },
+      "detail": {
+        "title": "Skill"
+      },
+      "label": "Label",
+      "code": "Code",
+      "collaborators": "Collaborators",
+      "category": "Categories"
+    }
+  }
+}

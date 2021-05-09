@@ -1,0 +1,6 @@
+id;label;code;description
+1;Débutant;1;A reçu une introduction à la compétence.
+2;Junior;2;Peut le faire avec de l'aide.
+3;Confirmé;3;Peut le faire sans aucune aide.
+4;Sénior;4;A une grande expérience sur la compétence et travaille à l'aise avec.
+5;Expert;5;Est un expert de la compétence et peut former les autres.

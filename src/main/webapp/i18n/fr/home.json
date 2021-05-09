@@ -1,0 +1,16 @@
+{
+    "home": {
+        "title": "Bienvenue, dans CRM-SKILLS",
+        "pieChart": {
+            "title": "Nombre de salariés par compétence"
+        },
+        "barChart": {
+            "title": "Salariés en mission / Salariés hors mission",
+            "firstDataset": "Salariés hors mission",
+            "secondDataset": "Salariés en mission"
+        },
+        "logged": {
+            "message": "Vous êtes connecté en tant que \"{{username}}\"."
+        }
+    }
+}

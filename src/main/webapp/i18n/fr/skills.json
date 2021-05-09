@@ -1,0 +1,25 @@
+{
+  "crm-skillsApp": {
+    "skills": {
+      "home": {
+        "title": "Compétences",
+        "createLabel": "Créer une nouvelle compétence",
+        "createOrEditLabel": "Créer ou éditer une compétence",
+        "notFound": "Aucune compétence trouvée"
+      },
+      "created": "Une nouvelle compétence a été créée avec l'identifiant {{ param }}",
+      "updated": "La compétence avec l'identifiant {{ param }} a été mise à jour",
+      "deleted": "La compétence avec l'identifiant {{ param }} a été supprimée",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer la compétence {{ id }} ?"
+      },
+      "detail": {
+        "title": "Compétence"
+      },
+      "label": "Label",
+      "code": "Code",
+      "collaborators": "Collaborateurs",
+      "category": "Catégorie"
+    }
+  }
+}

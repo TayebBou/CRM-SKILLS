@@ -1,0 +1,45 @@
+{
+  "name": "Skills",
+  "fields": [
+    {
+      "fieldName": "label",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "code",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-many",
+      "otherEntityName": "collaborator",
+      "otherEntityRelationshipName": "skills",
+      "relationshipName": "collaborators",
+      "otherEntityField": "id",
+      "ownerSide": false
+    },
+    {
+      "relationshipName": "category",
+      "otherEntityName": "category",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "label",
+      "otherEntityRelationshipName": "skills"
+    }
+  ],
+  "changelogDate": "20200921140045",
+  "entityTableName": "skills",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*",
+  "searchEngine": false,
+  "databaseType": "sql"
+}

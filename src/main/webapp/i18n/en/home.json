@@ -1,0 +1,16 @@
+{
+  "home": {
+    "title": "Welcome, to skills pro application",
+    "pieChart": {
+      "title": "Number of employees by skill"
+    },
+    "barChart": {
+      "title": "Employees on mission / Non-mission employees",
+      "firstDataset": "Non-mission employees",
+      "secondDataset": "Employees on mission"
+    },
+    "logged": {
+      "message": "You are logged in as user \"{{username}}\"."
+    }
+  }
+}

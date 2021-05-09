@@ -1,0 +1,33 @@
+{
+  "crm-skillsApp": {
+    "collaborator": {
+      "home": {
+        "title": "Collaborators",
+        "createLabel": "Create a new collaborator",
+        "createOrEditLabel": "Create or edit a collaborator",
+        "notFound": "No collaborator found"
+      },
+      "created": "A new collaborator is created with identifier {{ param }}",
+      "updated": "A collaborator is updated with identifier {{ param }}",
+      "selectFamilySituation": "Select your family situation",
+      "deleted": "A collaborator is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete collaborator {{ id }}?"
+      },
+      "detail": {
+        "title": "Collaborator"
+      },
+      "fullName": "Full Name",
+      "registerNumber": "Register Number",
+      "familySituation": "Family Situation",
+      "phone": "Phone",
+      "dateOfBirth": "Date Of Birth",
+      "startDate": "Start Date",
+      "avatar": "Avatar",
+      "lineManager": "Line Manager",
+      "availabilityDate": "Availability Date",
+      "account": "Account",
+      "skills": "Skills"
+    }
+  }
+}

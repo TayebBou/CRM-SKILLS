@@ -1,0 +1,5 @@
+id;register_number;family_situation;phone;date_of_birth;start_date;avatar;avatar_content_type;line_manager;availability_date;account_id
+1;7W7GWB;MARRIED;0693830479;1998-03-14;2020-09-21;../fake-data/blob/profil3.png;image/png;Fatima HASNA;2021-05-21;5
+2;X7FYM2;CELIBATE;0717333854;1983-09-20;2020-09-21;../fake-data/blob/profil2.png;image/png;EL MEHDI WAHABI;2021-05-21;6
+3;3WWELY;CELIBATE;0619668374;1986-05-16;2020-09-20;../fake-data/blob/profil1.png;image/png;Fatima HASNA;2021-05-21;7
+4;ZP60L4;CELIBATE;0615837915;1996-01-07;2020-09-21;../fake-data/blob/profil4.png;image/png;EL MEHDI WAHABI;2021-05-21;8
