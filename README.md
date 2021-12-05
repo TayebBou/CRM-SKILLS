@@ -6,7 +6,7 @@
 
 # CRM-SKILLS
 
-### Information System for Skills Management with React JS / JavaScript / TypeScript / Java / JEE / Spring Boot / JHipster / Docker / PostgreSQL / OAuth / JPQL / Prime React / Swagger / Liquibase / ESLint / Sass.
+### Information System for Skills Management with React JS / JavaScript / TypeScript / Redux / Java / JEE / Spring Boot / JHipster / Docker / PostgreSQL / OAuth / JPQL / Prime React / Swagger / Liquibase / ESLint / Sass.
 
 This application is using JHipster 6.10.1, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v6.10.1](https://www.jhipster.tech/documentation-archive/v6.10.1).
 
